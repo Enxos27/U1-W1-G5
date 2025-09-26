@@ -1,0 +1,157 @@
+/* Importo font */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.65;
+  color: #393d41;
+}
+
+header,
+main,
+footer {
+  min-width: none;
+  margin: auto;
+  max-width: 1920px;
+}
+
+header {
+  background-color: black;
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+header div {
+  text-align: left;
+  padding: 44px;
+}
+
+/* Parte Iniziale della pagina */
+#intro {
+  background-image: url(../images/banner.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 17%;
+  padding-top: 10px;
+  text-align: center;
+  color: #25a2c3;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+#intro h1 {
+  padding-top: 20px;
+}
+
+#intro button {
+  background-color: #f04c2f;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: white;
+  padding: 20px 50px 20px 50px;
+  border: none;
+  border-radius: 5px;
+  font-size: large;
+  margin-top: 30px;
+}
+
+#intro p {
+  color: black;
+  font-weight: 100;
+  margin-top: 30px;
+}
+
+/* Gestione articoli */
+#container-bottom {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.articoli {
+  display: inline-block;
+  width: 28%;
+  margin: 1%;
+  vertical-align: top;
+  border: 1px solid #dee1e3;
+}
+
+.articoli img {
+  width: 100%;
+}
+/* Parte centrale della pagina*/
+main h3 {
+  color: #25a2c3;
+  font-size: x-large;
+}
+
+#container-top {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 130px;
+}
+
+#notebook {
+  display: inline-block;
+}
+
+#testo {
+  display: inline-block;
+}
+
+#notebook img {
+  border-radius: 80%;
+  width: 600px;
+  box-sizing: border-box;
+  padding: 50px 20px 0px 150px;
+}
+
+/* Parte Garanzia */
+#garanzie {
+  background-color: #e22d0e;
+  text-align: center;
+  color: white;
+}
+#garanzie h2 {
+  padding-top: 45px;
+}
+#garanzie p:first-of-type {
+  padding: 20px;
+}
+#garanzie p:last-of-type {
+  padding: 0px 0px 20px 0px;
+}
+
+/* Gestione footer */
+
+footer {
+  background-color: #25a2c3;
+  color: #c8e7f0;
+  text-align: center;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 20px;
+  padding-bottom: 50px;
+}
+
+footer h2 {
+  color: white;
+}
+footer a {
+  display: block;
+  color: #c8e7f0;
+}
+footer hr {
+  width: 52%;
+}
+
+footer p {
+  padding-bottom: 20px;
+}
+
+footer p:last-of-type {
+  padding-top: 20px;
+}
